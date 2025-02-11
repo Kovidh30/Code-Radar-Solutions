@@ -2,8 +2,8 @@
 
 int main(){
     float n;
-    scanf("%f",&n);
-    printf("%f",n);
+    scanf("%.3f",&n);
+    printf("%.3f",n);
 
     return 0;
 }
