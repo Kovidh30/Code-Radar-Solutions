@@ -7,7 +7,7 @@ int main(){
         printf(" %d Positive");
     }
     else-if(n<0){
-        printf("5d Negative");
+        printf("%d Negative");
     }
     else{
         printf("Zero");
