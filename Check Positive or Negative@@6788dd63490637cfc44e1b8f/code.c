@@ -6,10 +6,10 @@ int main(){
     if(n>0){
         printf("Positive");
     }
-    elif(n<0){
+    else-if(n<0){
         printf("Negative");
     }
-    elif(n==0){
+    else-if(n==0){
         printf("Zero");
     }
 }
