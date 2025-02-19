@@ -10,4 +10,5 @@ int main(){
 
     }
     printf("Leap year");
+    return 0;
 }
