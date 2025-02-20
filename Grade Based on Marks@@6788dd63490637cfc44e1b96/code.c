@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 int main(){
-    char n;
-    scanf("%c",&n);
+    int n;
+    scanf("%d",&n);
     if(n>=90){
         printf("A");
     }
@@ -12,7 +12,7 @@ int main(){
     else if(n>=70 && n<80){
         printf("C");
     }
-    else if(n>=60 && <70){
+    else if(n>=60 && n<70){
         printf("D");
     }
     else if(n<60){
