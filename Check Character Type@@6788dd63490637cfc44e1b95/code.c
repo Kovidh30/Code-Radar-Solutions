@@ -8,17 +8,17 @@ int main(){
         ch = tolower(ch);
     }    
     if(ch == 'a' || ch == 'e' || ch = 'i' || ch =='o' || ch == 'u'){
-        printf("%c Vowel");
+        printf("Vowel");
     
     else{
-        printf("%c Consonant");
+        printf("Consonant");
     }
-    }
+    };
     else if(isdigit(ch)){
-        printf("%c Digit");
+        printf("Digit");
     }
     else{
-        printf("%c Special charachter");
+        printf("Special charachter");
     }
     return 0;
 }
