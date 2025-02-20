@@ -8,7 +8,7 @@ int main(){
         ch = tolower(ch);
     }    
     if(ch == 'a' || ch == 'e' || ch = 'i' || ch =='o' || ch == 'u'){
-        printf("Vowel");
+        printf("%c Vowel");
     
     else{
         printf("%c Consonant");
