@@ -9,14 +9,15 @@ int main(){
     }    
     if(ch == 'a' || ch == 'e' || ch = 'i' || ch =='o' || ch == 'u'){
         printf("Vowel");
-    }
+    
     else{
         printf("Consonant");
+    }
     }
     if(isdigit(ch)){
         printf("Digit");
     }
     else{
-        printf("Special");
+        printf("Special charachter");
     }
 }
