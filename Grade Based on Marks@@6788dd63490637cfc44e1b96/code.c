@@ -18,4 +18,8 @@ int main(){
     else if(n<60){
         printf('F');
     }
+    else{
+        printf("wrong info");
+    }
+    return 0;
 }
