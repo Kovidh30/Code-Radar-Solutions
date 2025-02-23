@@ -5,6 +5,8 @@ int main() {
     int age;
     
 
+    getchar();  // To consume the newline character left by previous scanf
+    fgets(hobby, sizeof(hobby), stdin);  // To read a string with spaces (hobby)
     
     // Output: Printing the name, age, and hobby
     printf("Name: %s\n", name);
