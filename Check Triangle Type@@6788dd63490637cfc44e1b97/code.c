@@ -13,3 +13,4 @@ int main(){
     else{
         printf("Scalene");
 }
+}
