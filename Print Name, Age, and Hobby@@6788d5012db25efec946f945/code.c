@@ -4,13 +4,7 @@ int main() {
     char name[100], hobby[100];
     int age;
     
-    // Input: Reading the user's name, age, and favorite hobby
-    printf("Enter your name: ");
-    scanf("%s", name);
-    
-    printf("Enter your age: ");
-    scanf("%d", &age);
-    
+
     printf("Enter your favorite hobby: ");
     getchar();  // To consume the newline character left by previous scanf
     fgets(hobby, sizeof(hobby), stdin);  // To read a string with spaces (hobby)
