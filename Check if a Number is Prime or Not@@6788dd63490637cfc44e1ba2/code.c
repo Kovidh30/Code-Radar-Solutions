@@ -15,3 +15,21 @@ int isPrime(int n) {
     return 1; // n is prime
 }
 
+int main() {
+    int number;
+
+    // Input number
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    // Check if the number is prime
+    if (isPrime(number)) {
+        printf("%d is a prime number.\n", number);
+    } else {
+        printf("%d is not a prime number.\n", number);
+    }
+
+    return 0;
+}
+
+
