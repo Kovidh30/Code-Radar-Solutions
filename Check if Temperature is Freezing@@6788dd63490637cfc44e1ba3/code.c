@@ -5,9 +5,9 @@ int main(){
     scanf("%d",&n);
 
     if(n==0){
-        printf("Freezing");
+        printf("Above Freezing");
     }
     else if(n<0){
-    printf("Above Freezing");
+    printf("Freezing");
 }    
 }
