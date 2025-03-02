@@ -10,6 +10,9 @@ int main(){
         }
         for(int k=i; k<=N;k++){
             printf("*");
+            if(k !=i){
+                printf(" ");
+            }
         }
         printf("\n");
 
