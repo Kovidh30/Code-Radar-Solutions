@@ -7,9 +7,6 @@ int main(){
     if(n==1){
         printf("Monday");
     }
-    if(n==1){
-        printf("Monday");
-    }
     if(n==2){
         printf("Tuesday");
     }
