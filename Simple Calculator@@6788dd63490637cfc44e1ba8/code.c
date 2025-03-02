@@ -6,19 +6,19 @@ int main(){
     scanf("%d %d %c",&a,&b,&operator);
 
     switch(operator){
-        case "+":
+        case '+':
             result = a+b;
             printf("%d",result);
             break;
-        case "-":
+        case '-':
             result = a-b;
             printf("%d",result);
             break;
-        case "*":
+        case '*':
             result = a*b;
             printf("%d",result);
             break;
-        case "/":
+        case '/':
             if(b != 0){
                  result = a/b;
                 printf("%d",result);
