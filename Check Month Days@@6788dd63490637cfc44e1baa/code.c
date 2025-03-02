@@ -5,40 +5,40 @@ int main(){
     scanf("%d",&n);
 
     switch(n){
-        case '1':
+        case 1:
             printf("%d 31\n",n);
             break;
-        case '2':  
+        case 2:  
             printf("%d 28\n",n);
             break;  
-        case '3':
+        case 3:
             printf("%d 31\n",n);
             break;
-        case '4':
+        case 4:
             printf("%d 30\n",n);
             break;
-        case '5':
+        case 5:
             printf("%d 31\n",n);
             break;
-        case '6':
+        case 6:
             printf("%d 30\n",n);
             break;
-        case '7':
+        case 7:
             printf("%d 31\n",n);
             break;
-        case '8':
+        case 8:
             printf("%d 31\n",n);
             break;
-        case '9':
+        case 9:
             printf("%d 30\n",n);
             break;  
-        case "10":
+        case 10:
             printf("%d 31\n",n);
             break;
-        case "11":
+        case 11:
             printf("%d 30\n",n);
             break;
-        case "12":
+        case 12:
             printf("%d 31\n",n);
             break;     
         default:
