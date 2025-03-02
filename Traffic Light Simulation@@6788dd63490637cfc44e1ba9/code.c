@@ -19,7 +19,7 @@ int main() {
             printf("Slow Down\n");
             break;
         default:
-            printf("Invalid traffic light signal\n");
+            printf("Invalid input\n");
             break;
     }
 
