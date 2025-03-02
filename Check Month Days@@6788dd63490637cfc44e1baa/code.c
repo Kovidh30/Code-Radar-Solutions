@@ -41,10 +41,10 @@ int main(){
         case '12':
             printf("%d 31");
             break;     
-        default{
+        default:
             printf("Invalid month");
             break;
-        }                 
+                     
 
     }
 }
