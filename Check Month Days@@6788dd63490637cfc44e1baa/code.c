@@ -6,7 +6,7 @@ int main(){
 
     switch(n){
         case 1:
-            printf(" 31\n");
+            printf("31\n");
             break;
         case 2:  
             printf("28\n");
