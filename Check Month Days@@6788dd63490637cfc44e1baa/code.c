@@ -1,10 +1,10 @@
 #include<stdio.h>
 
 int main(){
-    int n,days;
+    int n,months;
     scanf("%d",&n);
 
-    switch(days){
+    switch(months){
         case '1':
             printf("%d 31");
             break;
@@ -32,13 +32,13 @@ int main(){
         case '9':
             printf("%d 30");
             break;  
-        case '10':
+        case "10":
             printf("%d 31");
             break;
-        case '11':
+        case "11":
             printf("%d 30");
             break;
-        case '12':
+        case "12":
             printf("%d 31");
             break;     
         default:
