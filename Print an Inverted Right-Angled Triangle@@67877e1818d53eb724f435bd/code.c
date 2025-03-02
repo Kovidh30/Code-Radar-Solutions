@@ -2,7 +2,7 @@
 
 int main(){
     int N;
-    scamf("%d",&N);
+    scanf("%d",&N);
 
     for(int i =N; i <= N;i--){
         printf("*");
