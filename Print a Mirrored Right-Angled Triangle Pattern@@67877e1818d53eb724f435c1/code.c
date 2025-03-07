@@ -4,7 +4,7 @@ int main(){
     int N,i,j;
     scanf("%d",&N);
     for(int i = 1; i<=N;i++){
-        for(int j = N; j<=N; j++){
+        for(int j = N; j<=i; j++){
             printf("*");
         }
         printf("\n");
