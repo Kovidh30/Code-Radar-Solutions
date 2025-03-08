@@ -7,7 +7,7 @@ int main(){
         for(int j = 1; j<=N-i; j++){
             printf(" ");
         }
-        while(k != 3*i-2){
+        while(k != 2*i-1){
             printf("%d ",i);
             k++;
         }
