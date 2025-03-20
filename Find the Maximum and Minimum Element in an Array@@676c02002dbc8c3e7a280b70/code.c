@@ -18,8 +18,10 @@ int main(){
             else if(min > arr[i]){
                 min = arr[i];
             }
-            printf("%d %d",min,max);
+           
     }
+         printf("%d %d",min,max);
 
+         return 0;
 
 }
