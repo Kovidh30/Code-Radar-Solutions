@@ -13,8 +13,7 @@ int main(){
             printf("%d",i);
             return 0;
         }
-        else{
-            printf("-1");
-        }
+    
     }
+    printf("-1");
 }
