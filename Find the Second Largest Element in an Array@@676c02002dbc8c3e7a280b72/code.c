@@ -5,7 +5,7 @@ int main(){
     int n;
    
     scanf("%d", &n);
-        else if(n < 2){
+    if(n < 2){
         printf("-1\n");
         return 0;
     }
