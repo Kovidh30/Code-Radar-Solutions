@@ -1,38 +1,40 @@
-#include<stdio.h>
-#include<limits.h>
+#include <stdio.h>
+#include <limits.h>
 
-int main(){
+int main() {
     int n;
-   
     scanf("%d", &n);
-    if(n < 2){
+
+    if (n < 2) {
         printf("-1\n");
         return 0;
     }
+
     int arr[n];
 
-    
-    
-    // Input the array elements
-    for(int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
-    // Initialize the max and min values
-    int max = INT_MIN;
- 
+    int first = INT_MIN;
+    int second = INT_MIN;
 
-    // Loop through the array to find max and min
-    for(int i = 0; i < n; i++){
-        if(max < arr[i]){
-            max = arr[i]-1;
+    for (int i = 0; i < n; i++) {
+        if (arr[i] > first) {
+            second = first;
+            first = arr[i];
+        } else if (arr[i] > second && arr[i] != first) {
+            second = arr[i];
         }
-    
-        
     }
 
-    // Output the minimum and maximum values
-    printf("%d" , max);
+    if (second == INT_MIN) {
+        printf("-1\n"); // No distinct second largest
+    } else {
+        printf("%d\n", second);
+    }
 
     return 0;
+}
+
 }
