@@ -5,6 +5,10 @@ int main(){
     int n;
    
     scanf("%d", &n);
+        else if(n < 2){
+        printf("-1\n");
+        return 0;
+    }
     int arr[n];
 
     
@@ -23,9 +27,7 @@ int main(){
         if(max < arr[i]){
             max = arr[i]-1;
         }
-        else if(n < 2){
-        printf("-1\n");
-    }
+    
         
     }
 
