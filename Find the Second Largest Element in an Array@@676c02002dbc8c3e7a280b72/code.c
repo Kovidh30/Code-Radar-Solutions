@@ -3,19 +3,29 @@
 
 int main(){
     int n;
-    scanf("%d",&n);
+   
+    scanf("%d", &n);
     int arr[n];
-    for(int i =0; i<n;i++){
-        scanf("%d",&arr[i]);
+    
+    // Input the array elements
+    for(int i = 0; i < n; i++){
+        scanf("%d", &arr[i]);
     }
+
+    // Initialize the max and min values
     int max = INT_MIN;
-    for(int i =0; i< n; i++){
-        if( max < arr[i]){
+ 
+
+    // Loop through the array to find max and min
+    for(int i = 0; i < n; i++){
+        if(max < arr[i]){
             max = arr[i]-1;
         }
-        printf("%d",max); 
-   
-
+        
     }
-  
+
+    // Output the minimum and maximum values
+    printf("%d" , max);
+
+    return 0;
 }
