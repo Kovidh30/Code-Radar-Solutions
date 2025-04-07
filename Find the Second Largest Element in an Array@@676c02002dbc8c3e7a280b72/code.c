@@ -7,9 +7,7 @@ int main(){
     scanf("%d", &n);
     int arr[n];
 
-    if(n < 2){
-        printf("-1\n");
-    }
+    
     
     // Input the array elements
     for(int i = 0; i < n; i++){
@@ -25,6 +23,9 @@ int main(){
         if(max < arr[i]){
             max = arr[i]-1;
         }
+        if(n < 2){
+        printf("-1\n");
+    }
         
     }
 
