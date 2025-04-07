@@ -23,7 +23,7 @@ int main(){
         if(max < arr[i]){
             max = arr[i]-1;
         }
-        if(n < 2){
+        else if(n < 2){
         printf("-1\n");
     }
         
