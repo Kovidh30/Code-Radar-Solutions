@@ -17,7 +17,7 @@ int main(){
         else if(n<2){
             printf("-1\n");
         }
-        printf("%d",max);    
+    printf("%d",max);    
 
     }
   
