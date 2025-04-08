@@ -20,8 +20,8 @@ int main(){
     for(int i = 0; i<n; i++){
         scanf("%d",&arr[i]);
     }
-    sum_of_digits(arr,sum);
+   
     }
-    
+     sum_of_digits(arr,sum);
 
 }
