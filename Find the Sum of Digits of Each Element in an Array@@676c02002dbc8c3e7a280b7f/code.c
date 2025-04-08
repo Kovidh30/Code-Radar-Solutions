@@ -1,12 +1,6 @@
 #include<stdio.h>
 
-int main(){
-    int n,rem,sum;
-    scanf("%d",&n);
-
-    int arr[n];
-
-    void sum_of_digits(int arr[],int sum,int n){
+void sum_of_digits(int arr[],int sum,int n){
         for(int i =0l i<n;i++){
             while(n != 0){
             sum += n%10;
@@ -15,6 +9,14 @@ int main(){
             printf("%d",sum);
 
         }
+        
+int main(){
+    int n,rem,sum;
+    scanf("%d",&n);
+
+    int arr[n];
+
+    
     }
 
     for(int i = 0; i<n; i++){
