@@ -9,7 +9,7 @@ void sum_of_digits(int arr[],int sum,int n){
             printf("%d",sum);
 
         }
-        
+        }
 int main(){
     int n,rem,sum;
     scanf("%d",&n);
@@ -23,7 +23,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
    
-    }
+    
      sum_of_digits(arr,sum);
 
 }
